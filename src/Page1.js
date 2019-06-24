@@ -7,14 +7,14 @@ class OmsHome extends Component {
         return (
            <div>
                <div class="split left">
-                   <img src="./images/pathshalawall.jpg" alt="Pathshala Wall" />
+                   <img src="C:\Users\Kartik\Pictures\Camera Roll\28392.jpg" alt="Pathshala Wall" />
                 </div>
 
                 <div class="split right">
                     <h2>What do you want to create?</h2>
-                    <button onClick = "www.facebook.com">Campaign</button>
+                    <input type = 'button' value = 'Campaign' onClick = "location.href = 'www.facebook.com'" />
                     <br /><br />
-                    <button onClick = "www.youtube.com">Offer</button>
+                    <input type = 'button' value = 'Offer' />
                 </div>
            </div>
         )
